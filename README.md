@@ -18,7 +18,7 @@ Data Source: https://github.com/MarielaKaradzhova/PyBer_Analysis/tree/main/Resou
 Software: Python 3.7.6, Jupyter Notebook 6.1.4
 Python Tools: pandas, Matplotlib
 
-This analysis was performed using Jupyter Notebook, an open-sourced web application that allows users to create and share documents  with code, quations, visualizations and text. The exploratory analysis of this project contains dataframes created from a much larger dataset (see the Resources folder for original data sources), which includes statistics from different cities, dates, numbers of drivers, fare costs, numbers of rides and numbers of users. The goal of this analysis was to obtain summary statistics between the type of city,  number of drivers and riders, and the percentage of total fares, drivers and riders per city type. 
+This analysis was performed using Jupyter Notebook, an open-sourced web application that allows users to create and share documents with live code, equations, visualizations and text. The exploratory analysis of this project contains dataframes created from a much larger dataset (see the Resources folder for original data sources), which includes statistics from different cities, dates, numbers of drivers, fare costs, numbers of rides and numbers of users. The goal of this analysis was to obtain summary statistics between the type of city,  number of drivers and riders, and the percentage of total fares, drivers and riders per city type. 
 
 
 Link to the full code here: https://github.com/MarielaKaradzhova/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb
@@ -26,8 +26,21 @@ Link to the full code here: https://github.com/MarielaKaradzhova/PyBer_Analysis/
 
 ## Results
 
-### Differences in ride-sharing data among the cifferent city types
+### Differences in ride-sharing data among the different city types 
 
+Displayed below is a summary analysis table showing the differences in ride-sharing data among the different city types:
+
+
+
+![](https://github.com/MarielaKaradzhova/PyBer_Analysis/blob/main/analysis/pyber_summary_table.png)
+
+Total rides for each city type
+Total drivers for each city type
+Total amount of fares for each city type
+
+Average fare per ride for each city type
+
+Average fare per driver for each city type based on sum of all fares and total rides
 
 
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
